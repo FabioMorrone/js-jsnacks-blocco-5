@@ -16,7 +16,7 @@ const zucchine = [
 
 const zucchinaLunga = []
 const zucchinaCorta = []
-
+ 
 for (let i = 0; i < zucchine.length; i++) {
   const thisZucchine = zucchine[i];
   if (thisZucchine.length >= 15){
