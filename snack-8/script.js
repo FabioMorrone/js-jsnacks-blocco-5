@@ -21,3 +21,20 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+let laClasse = []
+for(let i = 0; i < students.length; i++){
+  const thisStudent = students[0]
+  if (thisStudent.name === 'Marco Lanci'){
+    laClasse += thisStudent.class
+    break
+  }
+}
+console.log(laClasse);
+
+
+
+const laSuaClasse = students.find((studente) =>{
+  return studente.name === 'Marco Lanci'
+})
+console.log(laSuaClasse.class);
