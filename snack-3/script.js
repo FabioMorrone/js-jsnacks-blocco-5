@@ -10,5 +10,10 @@ for (let i = 0; i < numbers.length; i++) {
   numbersPiu.push(thisNumber + 1)
 
 }
-
 console.log(numbersPiu);
+
+
+const addizione = numbers.map((numero)=>{
+  return numero + 1;
+})
+console.log(addizione);
